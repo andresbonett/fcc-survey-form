@@ -57,3 +57,23 @@ button {
   background: linear-gradient(145deg, #19905f, #1eab71);
   box-shadow: 20px 20px 60px #18885a, -20px -20px 60px #20b87a;
 }
+
+@media screen and (max-width: 740px) {
+  #title {
+    margin-top: 2em;
+    font-size: 1.3em;
+  }
+  #description {
+    font-size: 1rem;
+    margin: 2em;
+  }
+
+  #survey-form {
+    width: 100%;
+    margin: auto 0;
+    padding: 1em;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+  }
+}
