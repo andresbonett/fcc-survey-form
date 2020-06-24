@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+:root {
+  --background: radial-gradient(circle at 0 0, #00ff9f, blue);
+  --form: rgba(0, 0, 255, 0.5);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Varela Round", sans-serif;
+  color: aliceblue;
+  background-image: var(--background);
+  box-sizing: border-box;
+}
+
+#title,
+#description {
+  text-align: center;
+}
+
+#survey-form {
+  width: 640px;
+  margin: 0 auto;
+  padding: 2.5em;
+  background-color: var(--form);
+  border-radius: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: block;
+}
+
+.text-box {
+  padding: 0.7em;
+  border: none;
+  box-shadow: inset 1px 1px 1px gray;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+}
+
+textarea {
+  height: 10em;
+}
+
+button {
+  padding: 1em;
+  color: white;
+  background-color: #19905f;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(145deg, #19905f, #1eab71);
+  box-shadow: 20px 20px 60px #18885a, -20px -20px 60px #20b87a;
+}
